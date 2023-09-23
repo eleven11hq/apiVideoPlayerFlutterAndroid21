@@ -41,7 +41,7 @@ Android and Web.
 Run the following command at the root of your project.
 
 ```shell
-flutter pub add apivideo_player
+flutter pub add apivideo_player_android21
 ```
 
 ### Web usage
@@ -71,7 +71,7 @@ If you want to use your application as a web app, you need to add the [api.video
 
 To use a video player, you must instantiate a new controller.
 
-The [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart) parameters are:
+The [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart) parameters are:
 
 | Parameter    | Mandatory          | Type                                                                                                                                               | Description                                                                   |
 |--------------|--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
@@ -99,13 +99,13 @@ See the sample application below for more details.
 
 A Widget that displays the video and its controls.
 
-The [ApiVideoPlayer](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player.dart) constructor takes 3 parameters:
+The [ApiVideoPlayer](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21.dart) constructor takes 3 parameters:
 
 | Parameter    | Mandatory                | Type                                                                                                                                                | Description                                               |
 |--------------|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| controller   | Yes                      | [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart)                  | The controller that controls a video player               |
+| controller   | Yes                      | [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart)                  | The controller that controls a video player               |
 | hideControls | No (default false)       | bool                                                                                                                                                | Allows you to hide or show the controls of a video player |
-| theme        | No (default PlayerTheme) | [PlayerTheme](https://github.com/apivideo/api.video-flutter-player/blob/4efe23f20ccf1c9459cee7588da1d3fed74e8e36/lib/src/apivideo_player.dart#L102) | Allows you to customize the video player's colors         |
+| theme        | No (default PlayerTheme) | [PlayerTheme](https://github.com/apivideo/api.video-flutter-player/blob/4efe23f20ccf1c9459cee7588da1d3fed74e8e36/lib/src/apivideo_player_android21.dart#L102) | Allows you to customize the video player's colors         |
 
 ```dart
 final ApiVideoPlayerController controller = ApiVideoPlayerController(
@@ -123,7 +123,7 @@ Widget build(BuildContext context) {
 
 ## Methods
 
-Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart) has been instantiated, you can control the player it has been assigned to with its methods:
+Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart) has been instantiated, you can control the player it has been assigned to with its methods:
 
 | Method                                     | Description                                                                   |
 |--------------------------------------------|-------------------------------------------------------------------------------|
@@ -151,7 +151,7 @@ controller.play(); // Play the video
 
 ## Properties
 
-Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart) has been instantiated, you can access the video player's properties:
+Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart) has been instantiated, you can access the video player's properties:
 
 | Property     | Type                  | Description                                     |
 |--------------|-----------------------|-------------------------------------------------|
@@ -182,7 +182,7 @@ final bool isMuted = await controller.isMuted;
 
 ### Add a new event listener: Method 1
 
-When you instantiate a new [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart), you can bind callbacks to some events:
+When you instantiate a new [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart), you can bind callbacks to some events:
 
 ```dart
 final ApiVideoPlayerController controller = ApiVideoPlayerController(
@@ -194,7 +194,7 @@ final ApiVideoPlayerController controller = ApiVideoPlayerController(
 
 ### Add a new event listener: Method 2
 
-Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_controller.dart) has been instantiated, you can bind callbacks to some events:
+Once the [ApiVideoPlayerController](https://github.com/apivideo/api.video-flutter-player/blob/main/lib/src/apivideo_player_android21_controller.dart) has been instantiated, you can bind callbacks to some events:
 
 ```dart
 final ApiVideoPlayerController controller = ApiVideoPlayerController(
@@ -249,7 +249,7 @@ We are using external library
 # Sample application
 
 ```dart
-import 'package:apivideo_player/apivideo_player.dart';
+import 'package:apivideo_player_android21/apivideo_player_android21.dart';
 import 'package:flutter/material.dart';
 
 void main() {

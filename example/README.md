@@ -1,6 +1,6 @@
-# apivideo_player_example
+# apivideo_player_android21_example
 
-Demonstrates how to use the apivideo_player plugin.
+Demonstrates how to use the apivideo_player_android21 plugin.
 
 ## Getting Started
 

@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
-import 'apivideo_player_platform_interface.dart';
+import 'apivideo_player_android21_platform_interface.dart';
 import 'apivideo_types.dart';
 
 class ApiVideoMobilePlayer extends ApiVideoPlayerPlatform {

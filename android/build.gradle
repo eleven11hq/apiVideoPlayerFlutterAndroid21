@@ -1,4 +1,4 @@
-group 'video.api.apivideo_player'
+group 'video.api.apivideo_player_android21'
 version '1.0-SNAPSHOT'
 
 buildscript {

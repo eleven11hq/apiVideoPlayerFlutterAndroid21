@@ -1,9 +1,9 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:apivideo_player/apivideo_player.dart';
-import 'package:apivideo_player/src/apivideo_player_selectable_list_view.dart';
-import 'package:apivideo_player/src/presentation/apivideo_icons.dart';
+import 'package:apivideo_player_android21/apivideo_player_android21.dart';
+import 'package:apivideo_player_android21/src/apivideo_player_android21_selectable_list_view.dart';
+import 'package:apivideo_player_android21/src/presentation/apivideo_icons.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:pointer_interceptor/pointer_interceptor.dart';

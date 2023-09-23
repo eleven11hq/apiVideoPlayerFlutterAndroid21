@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:apivideo_player/apivideo_player.dart';
-import 'package:apivideo_player/src/apivideo_player_platform_interface.dart';
+import 'package:apivideo_player_android21/apivideo_player_android21.dart';
+import 'package:apivideo_player_android21/src/apivideo_player_android21_platform_interface.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

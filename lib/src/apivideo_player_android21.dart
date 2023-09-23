@@ -1,8 +1,8 @@
-import 'package:apivideo_player/src/apivideo_player_overlay.dart';
+import 'package:apivideo_player_android21/src/apivideo_player_android21_overlay.dart';
 import 'package:flutter/material.dart';
 
-import 'apivideo_player_controller.dart';
-import 'apivideo_player_platform_interface.dart';
+import 'apivideo_player_android21_controller.dart';
+import 'apivideo_player_android21_platform_interface.dart';
 
 ApiVideoPlayerPlatform get _playerPlatform {
   return ApiVideoPlayerPlatform.instance;

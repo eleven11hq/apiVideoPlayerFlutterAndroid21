@@ -1,11 +1,11 @@
 {
-    "name": "apivideo_player_example",
-    "short_name": "apivideo_player_example",
+    "name": "apivideo_player_android21_example",
+    "short_name": "apivideo_player_android21_example",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Demonstrates how to use the apivideo_player plugin.",
+    "description": "Demonstrates how to use the apivideo_player_android21 plugin.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

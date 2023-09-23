@@ -2,14 +2,14 @@
 import 'dart:async';
 import 'dart:html';
 
-import 'package:apivideo_player/src/javascript_controller.dart'
+import 'package:apivideo_player_android21/src/javascript_controller.dart'
     as js_controller;
-import 'package:apivideo_player/src/platform_view_registry/platform_view_registry.dart';
-import 'package:apivideo_player/src/utils/index.dart';
+import 'package:apivideo_player_android21/src/platform_view_registry/platform_view_registry.dart';
+import 'package:apivideo_player_android21/src/utils/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 
-import 'apivideo_player_platform_interface.dart';
+import 'apivideo_player_android21_platform_interface.dart';
 import 'apivideo_types.dart';
 import 'javascript_controller.dart';
 
@@ -370,7 +370,7 @@ class ApiVideoPlayerPlugin extends ApiVideoPlayerPlatform {
       }
 
       // Hide iframe border
-      if (document.head !=  null) {
+      if (document.head != null) {
         StyleElement styleElement = StyleElement();
         document.head!.append(styleElement);
         CssStyleSheet sheet = styleElement.sheet as CssStyleSheet;

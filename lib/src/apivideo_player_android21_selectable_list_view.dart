@@ -1,4 +1,4 @@
-import 'package:apivideo_player/apivideo_player.dart';
+import 'package:apivideo_player_android21/apivideo_player_android21.dart';
 import 'package:flutter/material.dart';
 
 class ApiVideoPlayerSelectableListView extends StatelessWidget {

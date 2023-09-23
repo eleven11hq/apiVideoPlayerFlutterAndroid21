@@ -4,7 +4,7 @@ class ApiVideoIcons {
   ApiVideoIcons._();
 
   static const _kFontFam = 'ApiVideoIcons';
-  static const String _kFontPkg = 'apivideo_player';
+  static const String _kFontPkg = 'apivideo_player_android21';
 
   static const IconData pausePrimary =
       IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
