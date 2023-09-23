@@ -44,10 +44,6 @@ flutter:
   plugin:
     implements: apivideo_player_android21
     platforms:
-      android:
-        dartPluginClass: ApiVideoMobilePlayer
-        package: video.api.flutter.player
-        pluginClass: ApiVideoPlayerPlugin
       ios:
         dartPluginClass: ApiVideoMobilePlayer
         pluginClass: ApiVideoPlayerPlugin
